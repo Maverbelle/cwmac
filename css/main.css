@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+}
+.flexGrid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.photo {
+  margin: 10px;
+  width: 25%;
+  height: 100px;
+  background: grey;
+  visibility: hidden;
+  transition-delay: 5s;
+}
+
+.flicker {
+  visibility: visible;
+}
