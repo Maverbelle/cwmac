@@ -2,6 +2,27 @@ body {
   background-color: black;
 }
 
+.background {
+  position: fixed;
+  width: 100%;
+  z-index: -10;
+  padding-top: 150px;
+}
+header {
+  position: fixed;
+  padding-bottom: 10px;
+  left: 15px;
+  top: 0;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  color: white;
+}
+
 html {
   height: 100%;
   margin: 0;
@@ -10,13 +31,14 @@ html {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  z-index: 10;
+  padding-top: 100px;
 }
 
 .photo {
   margin: 10px;
-  width: 25%;
-  height: 100px;
-  background: grey;
+  width: 150px;
+  height: 150px;
   visibility: visible;
 
 }
@@ -26,11 +48,27 @@ html {
   transition: ease;
 }
 
+.click {
+   color: blue;
+   text-decoration: underline;
+   cursor: pointer;
+ }
+
+.example {
+  background-color: blue;
+}
 .photo_static {
   margin: 10px;
-  width: 25%;
-  height: 100px;
-  background: grey;
+  width: 150px;
+  height: 150px;
   visibility: visible;
 
+}
+
+@media only screen
+  and (max-width: 325px) {
+
+  h1 {
+    font-size: 0.9em;
+  }
 }

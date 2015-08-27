@@ -1,28 +1,54 @@
-// function getRandom()
-// {
-//   var ranNum= Math.floor(Math.random()*11);
-//   return(ranNum);
+$( document ).ready(function() {
+  $('.photo').each(assignFlicker);
+});
+
+function getRandom(){
+  var ranNum= Math.floor(Math.random()*2000);
+  return(ranNum)
+};
+
+function assignFlicker(){
+  var delay = getRandom();
+  var that = this;
+  setTimeout(function(){
+    $(that).toggleClass('flicker');
+  },delay);
+}
+
+
+// var arr = [];
+// for (var i=0, t=11; i<t; i++) {
+//     arr.push(Math.round(Math.random() * t))
+// }
+// console.log(arr);
+
+// for (i=0; i<12; i++) {
+//   var rando=Math.floor(Math.random()*11);
+//   console.log(rando)
 // }
 
-
-for (i=0; i<12; i++) {
-  var rando=Math.floor(Math.random()*11);
-  console.log(rando)
-}
-
-for (t=0; t<12; t++) {
-  var delay=Math.random()*2000;
+// for (q=0; q<12; q++) {
+//   var delay=Math.random()*2000;
   // console.log(delay)
-}
+// }
 
+// var photoArray = new Array();
+// $("article.Photo").each(function(){
+//   photoArray.push(this.id);
+// });
 
-setTimeout(function(){
-  $(".photo").toggleClass('flicker');
-}, delay);
+// $( ".click" ).click(function() {
+// $(".photo").each(function() {
+//   $( this ).toggleClass( "example" );
+//   });
+// });
+
+// setTimeout(function(){
+//   $(".photo").toggleClass('flicker');
+// }, delay);
 
 
 //
-// $( document ).ready(function() {
+//
 //   console.log(setTimeout());
 //
-//   });
