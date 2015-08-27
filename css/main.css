@@ -18,9 +18,18 @@ html {
   height: 100px;
   background: grey;
   visibility: visible;
-  transition-delay: 5s;
+
 }
 
 .flicker {
   visibility: hidden;
+}
+
+.photo_static {
+  margin: 10px;
+  width: 25%;
+  height: 100px;
+  background: grey;
+  visibility: visible;
+
 }
