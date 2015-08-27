@@ -17,10 +17,10 @@ html {
   width: 25%;
   height: 100px;
   background: grey;
-  visibility: hidden;
+  visibility: visible;
   transition-delay: 5s;
 }
 
 .flicker {
-  visibility: visible;
+  visibility: hidden;
 }
