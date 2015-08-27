@@ -23,6 +23,7 @@ html {
 
 .flicker {
   visibility: hidden;
+  transition: ease;
 }
 
 .photo_static {
