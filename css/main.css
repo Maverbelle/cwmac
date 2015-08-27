@@ -12,15 +12,22 @@ header {
   position: fixed;
   padding-bottom: 10px;
   left: 15px;
+  width: 100%;
   top: 0;
+  font-family: 'Special Elite', cursive;
 }
 
 img {
   width: 100%;
 }
 
+svg {
+  float: right;
+}
+
 h1 {
   color: white;
+  width: 50%;
 }
 
 html {
@@ -37,8 +44,8 @@ html {
 
 .photo {
   margin: 10px;
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   visibility: visible;
 
 }
@@ -59,8 +66,8 @@ html {
 }
 .photo_static {
   margin: 10px;
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   visibility: visible;
 
 }
@@ -68,7 +75,14 @@ html {
 @media only screen
   and (max-width: 325px) {
 
-  h1 {
-    font-size: 0.9em;
+
+  .photo {
+    width: 150px;
+    height: 150px;
   }
+
+  .photo_static {
+    width: 150px;
+    height: 150px;
+}
 }
