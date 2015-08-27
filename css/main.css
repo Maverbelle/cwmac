@@ -8,6 +8,7 @@ body {
   z-index: -10;
   padding-top: 150px;
 }
+
 header {
   position: fixed;
   padding-bottom: 10px;
@@ -23,6 +24,8 @@ img {
 
 svg {
   float: right;
+  right: -125px;
+  visibility: hidden;
 }
 
 h1 {
@@ -55,7 +58,7 @@ html {
   transition: ease;
 }
 
-.click {
+/*.click {
    color: blue;
    text-decoration: underline;
    cursor: pointer;
@@ -63,7 +66,7 @@ html {
 
 .example {
   background-color: blue;
-}
+}*/
 .photo_static {
   margin: 10px;
   width: 250px;
