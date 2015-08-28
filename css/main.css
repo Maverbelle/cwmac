@@ -47,8 +47,8 @@ html {
 
 .photo {
   margin: 10px;
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   visibility: visible;
 
 }
@@ -58,34 +58,24 @@ html {
   transition: ease;
 }
 
-/*.click {
-   color: blue;
-   text-decoration: underline;
-   cursor: pointer;
- }
-
-.example {
-  background-color: blue;
-}*/
 .photo_static {
   margin: 10px;
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   visibility: visible;
 
 }
 
-@media only screen
-  and (max-width: 325px) {
+@media (min-width: 740px) {
 
 
   .photo {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
   }
 
   .photo_static {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
 }
 }
