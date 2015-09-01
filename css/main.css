@@ -25,6 +25,10 @@ header {
 
 img {
   width: 100%;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
 svg {
@@ -60,12 +64,27 @@ html {
 
 
 .photo {
-  /*margin: 10px;*/
+  margin: 10px;
   width: 150px;
   height: 150px;
   margin: 1%;
   visibility: visible;
+  -webkit-transition: width 500ms; /* Safari */
+  -webkit-transition-timing-function: linear; /* Safari */
+  transition: width 500ms;
+  transition-timing-function: linear;
+}
 
+.photo_static:hover {
+  width: 190px;
+  z-index: 20;
+  justify-content: center;
+}
+
+.photo:hover {
+  width: 190px;
+  z-index: 21;
+  justify-content: center;
 }
 
 .flicker {
@@ -74,11 +93,15 @@ html {
 }
 
 .photo_static {
-  /*margin: 10px;*/
+  margin: 10px;
   width: 150px;
   height: 150px;
     margin: 1%;
   visibility: visible;
+  -webkit-transition: width 500ms; /* Safari */
+  -webkit-transition-timing-function: linear; /* Safari */
+  transition: width 500ms;
+  transition-timing-function: linear;
 
 }
 
@@ -88,10 +111,33 @@ html {
   .photo {
     width: 250px;
     height: 250px;
+    -webkit-transition: width 500ms; /* Safari */
+    -webkit-transition-timing-function: linear; /* Safari */
+    transition: width 500ms;
+    transition-timing-function: linear;
   }
 
   .photo_static {
     width: 250px;
     height: 250px;
+    -webkit-transition: width 100ms; /* Safari */
+    -webkit-transition-timing-function: linear; /* Safari */
+    transition: width100ms;
+    transition-timing-function: linear;
 }
+
+.photo_static:hover {
+    width: 300px;
+    z-index: 20;
+    justify-content: center;
+
+}
+
+
+.photo:hover {
+  width: 300px;
+  z-index: 20;
+  justify-content: center;
+}
+
 }
