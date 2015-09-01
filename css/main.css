@@ -18,6 +18,11 @@ header {
   font-family: 'Special Elite', cursive;
 }
 
+
+.contact {
+text-align: left;
+}
+
 img {
   width: 100%;
 }
@@ -37,16 +42,20 @@ html {
   height: 100%;
   margin: 0;
 }
+
 .flexGrid {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;
+    flex-wrap: wrap;
   z-index: 10;
   padding-top: 100px;
+  width: 90%;
 }
 
+
 .photo {
-  margin: 10px;
+  /*margin: 10px;*/
   width: 150px;
   height: 150px;
   visibility: visible;
@@ -55,11 +64,11 @@ html {
 
 .flicker {
   visibility: hidden;
-  transition: ease;
+
 }
 
 .photo_static {
-  margin: 10px;
+  /*margin: 10px;*/
   width: 150px;
   height: 150px;
   visibility: visible;
