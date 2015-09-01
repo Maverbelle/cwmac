@@ -3,7 +3,7 @@ $( document ).ready(function() {
 });
 
 function getRandom(){
-  var ranNum= Math.floor(Math.random()*2000);
+  var ranNum= Math.floor(Math.random()*700);
   return(ranNum)
 };
 

@@ -20,7 +20,7 @@ header {
 
 
 .contact {
-text-align: left;
+
 }
 
 img {
@@ -29,7 +29,7 @@ img {
 
 svg {
   float: right;
-  right: -125px;
+  /*right: -125px;*/
   visibility: hidden;
 }
 
@@ -50,7 +50,10 @@ html {
     flex-wrap: wrap;
   z-index: 10;
   padding-top: 100px;
-  width: 90%;
+  width: 100%;
+  justify-content: center;
+  justify-content: -webkit-center;
+
 }
 
 
@@ -58,6 +61,7 @@ html {
   /*margin: 10px;*/
   width: 150px;
   height: 150px;
+  margin: 1%;
   visibility: visible;
 
 }
@@ -71,6 +75,7 @@ html {
   /*margin: 10px;*/
   width: 150px;
   height: 150px;
+    margin: 1%;
   visibility: visible;
 
 }
