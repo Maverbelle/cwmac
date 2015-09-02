@@ -122,7 +122,7 @@ html {
     height: 250px;
     -webkit-transition: width 100ms; /* Safari */
     -webkit-transition-timing-function: linear; /* Safari */
-    transition: width100ms;
+    transition: width 500ms;
     transition-timing-function: linear;
 }
 
